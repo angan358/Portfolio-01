@@ -1,0 +1,66 @@
+:root {
+    --lighting-color: #0089b7;
+    --dark-color: #003d62;
+    --darker-color: #003251;
+    --secondary-color: #fff700;
+}
+
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 35px;
+}
+
+body,
+html {
+    font-weight: 150px;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+    color: white;
+}
+
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+header {
+
+    background-color: var(--lighting-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    /*given for the spcing between the list*/
+}
+
+
+/*logo section*/
+
+.logo {
+    font-size: 1.5rem;
+}
