@@ -29,7 +29,7 @@ html {
 .container {
     max-width: 1300px;
     margin: 0 auto;
-    padding: 0 2rem;
+
 }
 
 header {
@@ -41,6 +41,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0.2rem;
 }
 
 a {
@@ -58,9 +59,24 @@ nav ul {
     /*given for the spcing between the list*/
 }
 
+nav li {
+    font-size: 1rem;
+    border-bottom: 0.4rem transparent solid;
+    transition: 0.3s ease-in-out;
+
+}
+
+nav li:hover {
+    border-bottom: var(--secondary-color) solid;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
 
 /*logo section*/
 
 .logo {
     font-size: 1.5rem;
+    font-weight: 700px;
 }
