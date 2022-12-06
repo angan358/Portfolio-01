@@ -80,3 +80,79 @@ nav li:hover {
     font-size: 1.5rem;
     font-weight: 700px;
 }
+
+
+
+/*Hero Section*/
+
+#hero {
+    background-color: var(--darker-color);
+    padding: 3rem;
+}
+
+#hero .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.hero-image img {
+    width: 350px;
+    height: 500px;
+    border-radius: 1400px;
+    background-color: var(--dark-color);
+}
+
+.hero-content {
+    display: grid;
+    place-items: center;
+}
+
+#hero h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.hi_text {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.name_text {
+    font-size: 2rem;
+}
+
+
+#hero h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    overflow: hidden;
+    border-right: 0.15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
