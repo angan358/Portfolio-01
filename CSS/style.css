@@ -94,6 +94,11 @@ nav li:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+}
+
+section {
+    border-bottom: 4px solid var(--lighting-color);
 }
 
 
